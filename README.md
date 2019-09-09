@@ -1,8 +1,8 @@
 # ESP32-Timelapse-camera
 
-Based on the v12345vtm/timelapse-ESP32-CAM sketch I simplified his sketch on one hand, and expanded on the other.
-For an unknown reason my two ESP32-Cam do not reliably connect to WiFi both with internal and extarnal camera, so I decided to
-delete the web based interface and use an OLED display and a switch for the user interface.
+Based on the v12345vtm/timelapse-ESP32-CAM sketch I simplified his sketch on the one hand, and expanded on the other.
+I decided to delete the web based interface and use an OLED display and a switch for the user interface. Hopefully somebody is able to add WiFi functionality to have the live image available to see where the camera is pointed at.
+I also added OTA functionality, but the option does not yet show up in the Arduino IDE...
 
 As the ESP32-Cam does not have unused GPIO's, I use RX and TX pins for both programming and display SDA and SCL by
 
